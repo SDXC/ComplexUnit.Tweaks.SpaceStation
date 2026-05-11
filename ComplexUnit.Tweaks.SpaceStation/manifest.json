@@ -1,0 +1,13 @@
+﻿{
+  "id": "ComplexUnit.Tweaks.SpaceStation",
+  "version": "1.0.0",
+  "display_name": "CxU.Tweaks.SpaceStation",
+  "description_short": "Allows to tweak some of the space station properties.",
+  "description_long": "Allows to tweak some of the space station properties such as maintenance and upgrade costs, bonuses, consumption and crew rotation.",
+  "authors": [ "ComplexUnit" ],
+  "primary_dlls": [ "ComplexUnit.Tweaks.SpaceStation.dll" ],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true,
+  "min_game_version": "0.8.4b"
+}

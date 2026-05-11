@@ -1,0 +1,73 @@
+﻿{
+  "construction_cost_first_tier": {
+    "default": 80,
+    "is_integer": true,
+    "description": "The initial cost of the space station.",
+    "min": 1,
+    "max": 10000
+  },
+  "construction_cost_per_tier": {
+    "default": 120,
+    "is_integer": true,
+    "description": "The cost for each upgrade of the space station.",
+    "min": 1,
+    "max": 10000
+  },
+  "maintenance_per_month_per_tier": {
+    "default": 0.25,
+    "description": "Maintenance per month and tier.",
+    "min": 0.01,
+    "max": 100
+  },
+  "crew_supplies_per_member_per_month": {
+    "default": 0.2,
+    "description": "Crew supplies consumed per member and month.",
+    "min": 0.01,
+    "max": 100
+  },
+  "research_points_provided_per_month_per_tier": {
+    "default": 48,
+    "is_integer": true,
+    "description": "Research points provided per month and tier.",
+    "min": 1,
+    "max": 10000
+  },
+  "research_supplies_consumed_per_month_per_tier": {
+    "default": 2,
+    "is_integer": true,
+    "description": "Research supplies consumed per month and tier.",
+    "min": 1,
+    "max": 10000
+  },
+  "unity_bonus_first_tier": {
+    "default": 0.15,
+    "description": "Base Unity bonus.",
+    "min": 0.01,
+    "max": 10000
+  },
+  "unity_bonus_per_tier": {
+    "default": 0.05,
+    "description": "Unity bonus per additional tier.",
+    "min": 0.01,
+    "max": 10000
+  },
+  "research_efficiency_bonus_first_tier": {
+    "default": 10,
+    "description": "Base research efficiency bonus.",
+    "min": 0.01,
+    "max": 10000
+  },
+  "research_efficiency_bonus_per_tier": {
+    "default": 5,
+    "description": "Research efficiency bonus per additional tier.",
+    "min": 0.01,
+    "max": 10000
+  },
+  "crew_rotation_duration": {
+    "default": 2,
+    "is_integer": true,
+    "description": "How long (in years) a crew stays in the space station before the crew rotates.",
+    "min": 1,
+    "max": 10000
+  }
+}
