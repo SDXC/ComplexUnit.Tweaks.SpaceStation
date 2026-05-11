@@ -5,6 +5,7 @@
   "description_short": "Allows to tweak some of the space station properties.",
   "description_long": "Allows to tweak some of the space station properties such as maintenance and upgrade costs, bonuses, consumption and crew rotation.",
   "authors": [ "ComplexUnit" ],
+  "links": [ "https://github.com/SDXC/ComplexUnit.Tweaks.SpaceStation" ],
   "primary_dlls": [ "ComplexUnit.Tweaks.SpaceStation.dll" ],
   "non_locking_dll_load": true,
   "can_add_to_saved_game": true,
